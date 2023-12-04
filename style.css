@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: chocolate;
+}
+
+.list{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+
+}
+
+#choice{
+    color: black;
+    font-size: 50px;
+}
+.home p{
+    background-image: url('https://www.mashed.com/img/gallery/chicken-wings-are-more-nutritious-than-you-thought/l-intro-1605217268.jpg');
+    height: 680px;
+    width: 2500px;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    padding: 15px;
+    }
+
+.about-session{
+    background-image: url('https://images7.alphacoders.com/132/1324477.png');
+    background-repeat: no-repeat;
+    height: 760px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.heading {
+    text-align: center;
+    color: burlywood ;
+    font-size: 30px;
+    height: 500px;
+    width: 80%;
+    margin: 0 80px;
+}
+
+.heading h2{
+    color: brown;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+        width: 100%;
+        height: 600px;
+        background-image: url('https://b.zmtcdn.com/data/pictures/chains/8/200988/8a9ba7a9933d315b3df70478cb1236df.jpg');
+        background-attachment: fixed;
+        opacity: .9;
+    }
+
+
+    .menu-icon{
+        background-color:  rgb(246, 104, 72);
+        height: 390px;
+        width: 370px;
+        border-radius: 10%;
+        float: left;/* to arrange in line || instead of margin left */
+        margin: 0px 65px;
+        box-shadow: 0 4px 8px 0 rgb(130, 116, 99);
+    }
+    
+    
+    .menu-icon label{
+       margin-left: 85px;
+       font-size: larger;
+       font-weight: bold;
+       font-family: 'REM', sans-serif;
+    }
+     
+    .menu-icon button{
+        margin-left: 140px;
+        background-color: rgb(20, 199, 32);
+        color: whitesmoke;
+        width: 100px;
+        height: 30px;
+        border-radius: 20%;
+    }
+    
+    .space{
+        margin: 10px 20px;
+    } 
+    
+    #menu-icon2{
+        margin-top: 40px;
+        
+    }
+    
+    #menu-icon2 img{
+        margin-left: 30px;
+    }
+
+/* .red-margin{
+    height: 110px;
+    width: 100%;
+    background-color: red;
+}
+
+.maroon-margin{
+    height: 290px;
+    width: 100%;
+    background-color: red;
+    background-color: maroon;
+}
+
+.maroon-margin h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+    color: white;
+    
+}
+
+.maroon-margin p{
+    text-align: center;
+    color: aliceblue;
+    font: 1em sans-serif;
+}
+
+.maroon-margin input{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    margin-left: 590px;
+
+}
+
+.maroon-margin button{
+    height: 30px;
+    width: 110px;
+    background-color: red;
+    border: red;
+} */
+
+/* input:hover{
+    box-shadow: 0 4px 8px 0 bisque;
+} */
+
+.up-arrow{
+    float: right;
+    margin: 0px 10px 50px 0px;
+}
+
+button:hover{
+    background-color: darkolivegreen;
+    opacity: .9;
+}
